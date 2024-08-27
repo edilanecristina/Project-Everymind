@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "title": "Camisa Puma",
+      "code": "1234",
+      "description": "Tecido de secagem rápida.",
+      "price": "70",
+      "id": "bbf1"
+    },
+    {
+      "title": "Camisa Nike",
+      "code": "1233",
+      "description": "Tecido de secagem rápida.",
+      "price": "190",
+      "id": "9b7a"
+    },
+    {
+      "id": "c5d5",
+      "title": "Bermuda Nike",
+      "code": "4567",
+      "description": "Tecido de secagem rápida.",
+      "price": "199,00"
+    },
+    {
+      "id": "56f5",
+      "title": "Bermuda puma",
+      "code": "1323",
+      "description": "312312",
+      "price": "212312"
+    }
+  ]
+}
