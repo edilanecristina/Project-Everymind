@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto Next.js com TypeScript e Tailwind CSS
+  Este é um projeto desenvolvido como um desafio técnico solicitado pela Everymind. O objetivo é criar um site para a empresa Nunes Sport, permitindo gerenciar     seus produtos, incluindo funcionalidades para criar, editar e deletar produtos.
 
-## Getting Started
+# Tecnologias Utilizadas
+- Next.js: Framework React para renderização do lado do servidor.
+- TypeScript: Para tipagem estática e segurança de tipo.
+- Tailwind CSS: Framework CSS para estilização responsiva.
+- Backend
+- Para simular o backend, utilizamos json-server. O banco de dados é configurado em um arquivo bd.json dentro do projeto, e o servidor backend é acessível na porta :5000.
 
-First, run the development server:
+# Instruções de Execução
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Clonar o Repositório
+- git clone <URL_DO_REPOSITORIO>
+- Instalar Dependências
+- Navegue para o diretório do projeto e execute: yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Executar o Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Para iniciar o frontend:
+- yarn dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Para iniciar o backend:
+- yarn backend
+  
+# Responsividade
+  O projeto é totalmente responsivo, adaptando-se a diferentes tamanhos de tela, incluindo dispositivos móveis, tablets e desktops.
 
-## Learn More
+# Imagens do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+### Home page products
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Versão desktop
+![desktop-version](https://github.com/user-attachments/assets/0ab0ebb7-fb06-4569-8a25-421b6fb3996a)
+#### Versão tablet
+![tablet-version](https://github.com/user-attachments/assets/b171143e-b595-4ee9-9b48-903c601d8c60)
+#### Versão mobile
+![mobile-version](https://github.com/user-attachments/assets/906c39b6-0c98-478a-a23b-28d7f12f2e53)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Manager page products
 
-## Deploy on Vercel
+#### Versão desktop
+![manager-desktop-version](https://github.com/user-attachments/assets/4cd273ce-a41d-4932-96e2-15ab42e536df)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### About page products
